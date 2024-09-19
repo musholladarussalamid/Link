@@ -29,7 +29,7 @@ const DonasiPalestina = () => {
       .then((response) => response.json())
       .then((json) => {
         if (json.dataLinkProgram) {
-          const detailProgramSarpras = json.dataLinkProgram[4];
+          const detailProgramSarpras = json.dataLinkProgram[5];
           setLinkContent(detailProgramSarpras);
           setShimmerLoad(!shimmerLoad);
         }
