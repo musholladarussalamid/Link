@@ -17,6 +17,12 @@ const Krdopm = () => {
   const [descriptionContent, setDescriptionContent] = useState("");
   const [prosentase, setProsentase] = useState(0);
 
+  const namaBank = linkContent?.rekening.bank;
+  const atasNama = linkContent?.rekening.atas_nama;
+  const rekening = linkContent?.rekening.rekening;
+  const kode_unik = linkContent?.rekening.kode_unik;
+  const denganKode = `dengan kode transaksi ${linkContent?.rekening.kode_unik} di belakang nominal transfer`;
+
   const handleLinkContent = (link: dataDetailProgram) => {
     setLinkContent(link);
   };
@@ -129,13 +135,67 @@ const Krdopm = () => {
               />
               <div className="mt-1 py-1">{linkContent?.hashtag}</div>
             </div>
-            <button
+            {/* <button
               className="w-full inline-block px-12 py-3 my-2 text-sm text-center font-medium text-white bg-green-600 border border-green-600 rounded active:text-green-500 hover:bg-transparent hover:text-green-600 focus:outline-none focus:ring"
               data-hs-overlay="#hs-overlay-bottom-program-donasi"
               onClick={() => handleLinkContent(linkContent!!)}
             >
               Donasi
-            </button>
+            </button> */}
+            <div className="">
+              <div className="mb-4">
+                Transfer Donasi ke Bank {namaBank}, No. Rekening{" "}
+                <span className=" font-semibold">{rekening}</span> A.n{" "}
+                <span className=" font-semibold">{atasNama}</span>{" "}
+                {kode_unik ? denganKode : ""}.
+              </div>
+              <div className="flex relative mt-2 mb-4">
+                <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z"
+                    />
+                  </svg>
+                </div>
+                <input
+                  readOnly
+                  type="search"
+                  id="search"
+                  className="block read-only:bg-gray-100 w-full p-4 ps-10 text-sm text-gray-700 border border-gray-300 rounded-lg bg-gray-50 focus:ring-transparent focus:border-transparent dark:bg-transparent dark:border-transparent dark:placeholder-gray-400 dark:focus:ring-transparent dark:focus:border-transparent"
+                  placeholder="Nomor Rekening"
+                  defaultValue={rekening}
+                  required
+                />
+                <button
+                  onClick={() => copylink(rekening ? rekening : "-")}
+                  type="submit"
+                  className="text-gray-500 absolute end-2.5 bottom-2.5 bg-blue-100 hover:bg-blue-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-100 dark:hover:bg-blue-100 dark:focus:ring-blue-100"
+                >
+                  Copy
+                </button>
+              </div>
+              <div className="">
+                *Konfirmasi donasi anda hubungi{" "}
+                {linkContent?.konfirmasi_donasi.no_hp}{" "}
+                {/* atau isi form konfirmasi{" "} */}
+                {/* <Link
+            className=" text-blue-500 font-semibold"
+            href="https://forms.gle/78gZk7rqxYgpCfmq6"
+          >
+            di sini
+          </Link>{" "} */}
+              </div>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
