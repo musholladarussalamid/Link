@@ -38,7 +38,7 @@
   "dataLinkProgram": [
     {
       "lable": "Kajian Rutin dan Operasional Musholla",
-      "url": "/Program/Krdopm",
+      "url": "/Program/P1446H/Krdopm",
       "image": "/krdopm-img.jpg",
       "donation_target": "",
       "donation_target_date": "",
@@ -59,65 +59,21 @@
       }
     },
     {
-      "lable": "Pengadaan Sarana dan Prasarana",
-      "url": "/Program/Sarpras",
-      "image": "/sarpras-img.jpeg",
-      "donation_target": "20.000.000",
-      "donation_target_date": "10 April 2024",
-      "donation_achievement": "16.000.000",
-      "donation_achievement_date": "5 April 2024",
-      "caption": "Wakaf Sarana dan Prasarana",
-      "description": "%3Cp%3E%3Cspan%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3Bfont-size%3A%20medium%3B%22%3E%D8%A8%D9%90%D8%B3%D9%92%D9%85%D9%90%20%D8%A7%D9%84%D9%84%D9%8E%D9%91%D9%87%D9%90%20%D8%A7%D9%84%D8%B1%D9%8E%D9%91%D8%AD%D9%92%D9%85%D9%8E%D9%86%D9%90%20%D8%A7%D9%84%D8%B1%D9%8E%D9%91%D8%AD%D9%90%D9%8A%D9%92%D9%85%3C%2Fspan%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%20color%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3E%3Cbr%3E%26quot%3BPerumpamaan%20orang-orang%20yang%20menginfakkan%20hartanya%20dijalan%20Allah%20adalah%20seperti%20%28orang-orang%20yang%20menabur%29%20sebutir%20biji%20%28benih%29%20yang%20menumbuhkan%20tujuh%20tangkai%2C%20pada%20setiap%20tangkai%2C%20pada%20setiap%20tangkai%20ada%20seratus%20biji.%20Allah%20melipatgandakan%20%28pahala%29%20bagi%20siapa%20yang%20Dia%20kehendaki.%20Allah%20Maha%20luas%20lagi%20Maha%20mengetahui.%26quot%3B%20%28QS.%20Al%20baqarah%3A%20261%29%3C%2Fp%3E%0A%3Cbr%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%20color%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EAssalamualaikum%20wr%20wb%2C%20Dalam%20rangka%20menunjang%20kegiatan%20Musholla%2C%20dan%20hasil%20evaluasi%20kebutuhan%20sarana%20prasana%20Musholla%2C%20serta%20pemeliharaannya.%20Kami%20bermaksud%20mengadakan%20Program%20Waqaf%20Pengadaan%20Sarana%20Prasarana.%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%20color%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EBerikut%20terlampir%20~%26curren%3B%26bull%3B%26deg%3B%F0%9F%AA%91%F0%9F%92%BB%F0%9F%93%8C%26deg%3B%26bull%3B%26curren%3B~%20Dana%20Waqaf%20dapat%20ditranfer%20ke%20%F0%9F%94%81%20Mandiri%20102.000.5964.165%20A.n%20Putut%20Mahardika%20%F0%9F%97%A3%EF%B8%8F%20Konfirmasi%20ke%20om%20Putut%20%280811-8458-787%29%3C%2Fp%3E%0A%3Cbr%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%22%3E%3Cspan%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EJazakumullah%20Khairan%20Katsiran.%3C%2Fspan%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%22%3E%3Cspan%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EWassalamualaikum%20Wr%20Wb.%3C%2Fspan%3E%3C%2Fp%3E%0A%3Cp%3E%3Cbr%3E%3C%2Fp%3E",
-      "hashtag": "#SholehBerjamaah #DKMDarussalam #SaranaPrasaranaMusollah",
-      "rekening": {
-        "bank": "Mandiri",
-        "rekening": "102.000.5964.165",
-        "atas_nama": "Putut Mahardika",
-        "kode_unik": "2"
-      },
-      "konfirmasi_donasi": {
-        "nama": "Putut Mahardika",
-        "no_hp": "0811-8458-787"
-      }
-    },
-    {
-      "lable": "Jumat Berbagi",
-      "url": "/Program/Jumber",
-      "image": "/jumber-img.jpeg",
-      "donation_target": "",
-      "donation_target_date": "",
-      "donation_achievement": "874.300",
-      "donation_achievement_date": "",
-      "caption": "Sedekah Bersama Jum'at Berbagi",
-      "description": "%3Cp%3EBismill%C4%81hirrahmanirrah%C4%ABm%3C%2Fp%3E%0A%3Cp%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%3ESyaikh%20Ibnu%20Utsaimin%20%D8%B1%D8%AD%D9%85%D9%87%20%D8%A7%D9%84%D9%84%D9%87%20berkata%3A%3C%2Fp%3E%0A%3Cp%3E%26quot%3BJika%20suatu%20perkara%20membuatmu%20lelah%20dan%20membuatmu%20lemah%20darinya%20maka%20ucapkanlah%20Laa%20Haula%20Walla%20Quwwata%20Illa%20Billah%2C%20karena%20sungguh%20Allah%20akan%20membantumu%20atas%20perkara%20itu%26quot%3B%3C%2Fp%3E%0A%3Cp%3E%28Syarh%20Riyadus%20Sholihin%205%2C%2F522%29%3C%2Fp%3E%0A%3Cp%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%3E%3Cstrong%3E%5B%20OPEN%20%5D%20Donasi%20%23Jum%26apos%3BatBerbagi%3C%2Fstrong%3E%3C%2Fp%3E%0A%3Cp%3E%E2%80%BC%EF%B8%8F%20Penerimaan%20donasi%20uang%20maksimal%20H-2%3C%2Fp%3E%0A%3Cp%3ESetelah%20dari%20batas%20waktu%20tersebut%20maka%20donasi%20yang%20masuk%20akan%20digunakan%20untuk%20kegiatan%20Jumber%20berikutnya%3C%2Fp%3E%0A%3Cp%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%3E%E2%9E%A1%EF%B8%8F%20%3Cstrong%3EAyoooo%3C%2Fstrong%3E%20ambil%20bagian%20pahala%20di%20program%20ini%20%E2%9E%A1%EF%B8%8F%3C%2Fp%3E%0A%3Cp%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%3E%F0%9F%A4%B2%F0%9F%8F%BB%20Luruskan%20niat%20karena%20Allah%2C%20semoga%20menjadi%20amal%20yang%20bermanfaat%20dan%20berkah%20untuk%20kita%20semua.%20Aamiin%20ya%20Rabbal%20%26apos%3Balamiin..%3C%2Fp%3E%0A%3Cp%3E%3Cbr%3E%3C%2Fp%3E",
-      "hashtag": "#SholehBerjamaah #DKMDarussalam #Jum'atBerbagi",
-      "rekening": {
-        "bank": "BSI",
-        "rekening": "7253063364",
-        "atas_nama": "Desy Aryani",
-        "kode_unik": ""
-      },
-      "konfirmasi_donasi": {
-        "nama": "Desy Aryani",
-        "no_hp": "+62 821-2299-0904"
-      }
-    },
-    {
-      "lable": "Semarak Maulid 1446 H",
-      "url": "/Program/Maulid",
-      "image": "/maulid-img.jpg",
-      "donation_target": "",
-      "donation_target_date": "22 September 2024",
+      "lable": "Isra Mi'raj Nabi Muhammad SAW 1446 H",
+      "url": "/Program/P1446H/Isra Mi'raj",
+      "image": "/isra-miraj-img.jpg",
+      "donation_target": "0",
+      "donation_target_date": "2 Februari 2025",
       "donation_achievement": "0",
-      "donation_achievement_date": "22 September 2024",
-      "caption": "Memperingati Maulid Nabi Muhammad SAW 1446 H",
-      "description": "%3Cp%3E%E2%80%A2%E2%94%88%E2%94%88%E2%94%88%E2%80%A2%E2%80%A2%E2%9C%B5%E2%9C%A8%20%F0%9F%95%8C%20%E2%9C%A8%E2%9C%B5%E2%80%A2%E2%80%A2%E2%94%88%E2%94%88%E2%94%88%E2%80%A2%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3Aright%3B%22%3E%D8%A8%D9%90%D8%B3%D9%92%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%80%D9%85%D9%90%20%D8%A7%D9%84%D9%84%D9%91%D9%87%D9%90%20%D8%A7%D9%84%D8%B1%D9%8E%D9%91%D8%AD%D9%92%D9%85%D9%8E%D9%86%D9%90%20%D8%A7%D9%84%D8%B1%D9%8E%D9%91%D8%AD%D9%90%D9%8A%D9%92%D9%85%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3E%E2%80%9CSesungguhnya%20Allah%20dan%20malaikat-malaikat-Nya%20bershalawat%20untuk%20Nabi.%20Hai%20orang-orang%20yang%20beriman%2C%20bershalawatlah%20kamu%20untuk%20Nabi%20dan%20ucapkanlah%20salam%20penghormatan%20kepadanya.%E2%80%9D%20%28Q.S.%20Al-Ahzab%3A%2056%29%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3Aright%3B%22%3E%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%88%D8%B1%D8%AD%D9%85%D8%A9%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%A8%D8%B1%D9%83%D8%A7%D8%AA%D9%87%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3EDengan%20izin%20dan%20rahmat%20Allah%20Ta%E2%80%99ala%2C%20DKM%20Musholla%20Darussalam%20mengundang%20seluruh%20warga%20Pesona%20Darussalam%20untuk%20ikut%20berpartisipasi%20dalam%20acara%20%3Cstrong%3EMemperingati%20Maulid%20Nabi%20Muhammad%20SAW%201446%20H%3C%2Fstrong%3E.%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3EAcara%20ini%20diadakan%20sebagai%20bentuk%20kecintaan%20dan%20penghormatan%20kita%20kepada%20Rasulullah%20SAW.%20Diharapkan%20dengan%20menghadiri%20acara%20ini%2C%20kita%20dapat%20lebih%20mengenal%20dan%20meneladani%20akhlak%20mulia%20Nabi%20Muhammad%20SAW.%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3E%F0%9F%93%85%20%3Cstrong%3EHari%2FTanggal%3C%2Fstrong%3E%3A%20Ahad%2C%2022%20September%202024%3Cbr%3E%E2%8F%B0%20%3Cstrong%3EWaktu%3C%2Fstrong%3E%3A%2007.00%20-%2010.00%3Cbr%3E%F0%9F%93%8D%20%3Cstrong%3ETempat%3C%2Fstrong%3E%3A%20Lapangan%20Darussalam%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3E%3Cstrong%3EAgenda%20Acara%3C%2Fstrong%3E%3A%3C%2Fp%3E%0A%3Cul%20style%3D%22list-style-type%3A%20circle%3B%20padding-left%3A%2032px%3B%22%3E%0A%20%20%20%20%3Cli%3EPawai%20Semarak%20Maulid%3C%2Fli%3E%0A%20%20%20%20%3Cli%3ELomba%20Kostum%20Terbaik%3C%2Fli%3E%0A%20%20%20%20%3Cli%3ELomba%20Adzan%3C%2Fli%3E%0A%20%20%20%20%3Cli%3ELomba%20Mewarnai%20Kaligrafi%3C%2Fli%3E%0A%20%20%20%20%3Cli%3ELomba%20Sambung%20Ayat%3C%2Fli%3E%0A%3C%2Ful%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3EBagi%20warga%20yang%20ingin%20berdonasi%2C%20dapat%20menyalurkan%20infak%20dan%20shadaqah%20terbaik%20ke%20rekening%20Mandiri%20a.n%20%3Cstrong%3EPutu%20Mahardika%3C%2Fstrong%3E%20atau%20melalui%20kontak%20%3Cstrong%3EPutu%20Mahardika%3C%2Fstrong%3E%20%E2%98%8E%EF%B8%8F%3A%200811%208458%20787.%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3ESemoga%20acara%20ini%20membawa%20keberkahan%20dan%20memperkuat%20ukhuwah%20di%20antara%20kita.%20Jangan%20lewatkan%20kesempatan%20untuk%20memperbanyak%20amal%20shalih%20di%20bulan%20kelahiran%20Rasulullah%20SAW.%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3EJazaaakumullahu%20Khayran%20atas%20partisipasi%20dan%20dukungannya.%20%F0%9F%99%8F%3Cbr%3ESemoga%20Allah%20Ta%E2%80%99ala%20memberkahi%20dan%20meridhoi%20segala%20usaha%20kita%20untuk%20menghidupkan%20syiar%20Islam%20ini.%20Aamiin%20ya%20Rabbal%20%E2%80%98Alamin%20%F0%9F%A4%B2%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3E%F0%9F%8D%82Barakallahu%20Fiikum%F0%9F%8D%82%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3Aright%3B%22%3E%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%88%D8%B1%D8%AD%D9%85%D8%A9%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%A8%D8%B1%D9%83%D8%A7%D8%AA%D9%87%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3E%E2%80%A2%E2%94%88%E2%94%88%E2%94%88%E2%80%A2%E2%80%A2%E2%9C%B5%E2%9C%A8%20%F0%9F%95%8C%20%E2%9C%A8%E2%9C%B5%E2%80%A2%E2%80%A2%E2%94%88%E2%94%88%E2%94%88%E2%80%A2%3C%2Fp%3E%0A%3Cp%3E%26nbsp%3B%3C%2Fp%3E",
-      "hashtag": "#MaulidNabiMuhammadSAW #DKMDarussalam #CintaNabi #Maulid1446H #SholehBerjamaah #PawaiSemarakMaulid #LombaMaulid",
+      "donation_achievement_date": "19 Januari 2025",
+      "caption": "Isra Mi'raj 1446 H",
+      "description": "%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cstrong%3E%F0%9F%8C%99%20Isra%20Mi%26apos%3Braj%20Nabi%20Muhammad%20SAW%201446%20H%3C%2Fstrong%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%F0%9F%93%8D%20%3Cem%3EMusholla%20Darussalam%3C%2Fem%3E%3Cbr%3E%F0%9F%93%85%20%3Cem%3EAhad%2C%202%20Februari%202025%3C%2Fem%3E%3Cbr%3E%3Cstrong%3E%26quot%3BTeladan%20Sepanjang%20Masa%26quot%3B%3C%2Fstrong%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3EDengan%20penuh%20rasa%20syukur%2C%20kami%20mengundang%20Anda%20untuk%20menghadiri%20peringatan%20Isra%20Mi%26apos%3Braj%20Nabi%20Muhammad%20SAW%201446%20H.%20Bersama-sama%2C%20mari%20kita%20mengenang%20perjalanan%20suci%20Rasulullah%20SAW%20dan%20meneladani%20akhlak%20para%20nabi%20yang%20menjadi%20inspirasi%20sepanjang%20masa.%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%E2%9C%A8%20%3Cstrong%3ERangkaian%20Kegiatan%3A%3C%2Fstrong%3E%3Cbr%3E1%EF%B8%8F%E2%83%A3%20%3Cstrong%3EPenampilan%20Monolog%20Peran%20Rasul%3C%2Fstrong%3E%3Cbr%3E%F0%9F%95%92%20Ba%26rsquo%3Bda%20Ashar%3Cbr%3ESaksikan%20kreativitas%20anak-anak%20Musholla%20Darussalam%20dalam%20menceritakan%20kisah%20inspiratif%20para%20nabi%2C%20mulai%20dari%20Nabi%20Adam%20AS%20hingga%20Nabi%20Muhammad%20SAW.%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E2%EF%B8%8F%E2%83%A3%20%3Cstrong%3ETabligh%20Akbar%3C%2Fstrong%3E%3Cbr%3E%F0%9F%95%96%20Ba%26rsquo%3Bda%20Maghrib%3Cbr%3EMengupas%20makna%20dan%20hikmah%20dari%20perjalanan%20Isra%20Mi%26apos%3Braj%20Rasulullah%20SAW%20bersama%20ustadz%20terkemuka.%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%F0%9F%8E%AF%20%3Cstrong%3EAnggaran%20Kegiatan%3A%3C%2Fstrong%3E%3Cbr%3ERp4.000.000%2C-%3Cbr%3EKami%20membuka%20kesempatan%20bagi%20Anda%20untuk%20turut%20berkontribusi%20menyukseskan%20kegiatan%20ini%20melalui%20donasi.%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%F0%9F%92%B3%20%3Cstrong%3ECara%20Berdonasi%3A%3C%2Fstrong%3E%3C%2Fp%3E%0A%3Cul%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%0A%20%20%20%20%3Cli%3E%0A%20%20%20%20%20%20%20%20%3Cp%3E%3Cstrong%3ETransfer%20Bank%3A%3C%2Fstrong%3E%3Cbr%3EBank%20Mandiri%3Cbr%3ENo.%20Rekening%3A%20102.000.5964.165%3Cbr%3Ea.n.%20Putut%20Mahardika%3Cbr%3ETambahkan%20kode%20%26ldquo%3B1%26rdquo%3B%20di%20akhir%20nominal%20transfer.%3C%2Fp%3E%0A%20%20%20%20%3C%2Fli%3E%0A%20%20%20%20%3Cli%3E%0A%20%20%20%20%20%20%20%20%3Cp%3E%3Cstrong%3EDonasi%20Langsung%3A%3C%2Fstrong%3E%3Cbr%3ESalurkan%20donasi%20Anda%20melalui%20kotak%20infaq%20yang%20tersedia%20di%20Musholla%20Darussalam.%3C%2Fp%3E%0A%20%20%20%20%3C%2Fli%3E%0A%3C%2Ful%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%F0%9F%93%9E%20%3Cstrong%3EKonfirmasi%20Donasi%3A%3C%2Fstrong%3E%3Cbr%3E0811-8458-787%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Chr%20style%3D%22text-align%3A%20start%3B%22%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%F0%9F%92%AB%20%3Cstrong%3EBersama%20Kita%20Wujudkan%20Kegiatan%20Penuh%20Keberkahan%3C%2Fstrong%3E%3Cbr%3EDukungan%20Anda%2C%20baik%20doa%2C%20waktu%2C%20maupun%20donasi%2C%20akan%20menjadi%20bagian%20penting%20dalam%20menyukseskan%20peringatan%20Isra%20Mi%26apos%3Braj%20ini.%20Mari%20hadirkan%20semangat%20cinta%20kepada%20Rasulullah%20SAW%20dalam%20langkah%20kita%20sehari-hari.%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%F0%9F%93%A2%20%3Cem%3E%26ldquo%3BMeneladani%20Rasul%2C%20Meraih%20Hidup%20Mulia%26rdquo%3B%3C%2Fem%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cstrong%3EInformasi%20lebih%20lanjut%3A%3C%2Fstrong%3E%3Cbr%3EHubungi%20Panitia%20Isra%20Mi%26apos%3Braj%20Musholla%20Darussalam%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3E%3Cbr%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3B%22%3ETerima%20kasih%20atas%20partisipasi%20Anda.%20Semoga%20Allah%20SWT%20melimpahkan%20rahmat%20dan%20keberkahan%20kepada%20kita%20semua.%3C%2Fp%3E",
+      "hashtag": "#SholehBerjamaah #DKMDarussalam #IsraMi'rajDarussalam #IsraMi'raj1446H",
       "rekening": {
         "bank": "Mandiri",
         "rekening": "102.000.5964.165",
         "atas_nama": "Putut Mahardika",
-        "kode_unik": "2"
+        "kode_unik": "1"
       },
       "konfirmasi_donasi": {
         "nama": "Putut Mahardika",
@@ -125,8 +81,8 @@
       }
     },
     {
-      "lable": "Ramadan 1445 H",
-      "url": "/Program/Ramadan",
+      "lable": "Ramadan 1446 H",
+      "url": "/Program/P1446H/Ramadan",
       "image": "/ramadan-img.jpg",
       "donation_target": "28.025.000",
       "donation_target_date": "11 Maret 2024",
@@ -144,28 +100,6 @@
       "konfirmasi_donasi": {
         "nama": "Siti Rahayu",
         "no_hp": "0812-8415-5374"
-      }
-    },
-    {
-      "lable": "Donasi Palestina",
-      "url": "/Program/DonasiPalestina",
-      "image": "/dp-img.jpeg",
-      "donation_target": "",
-      "donation_target_date": "10 April 2024",
-      "donation_achievement": "",
-      "donation_achievement_date": "5 April 2024",
-      "caption": "Donasi Kemanusiaan untuk warga Palestina",
-      "description": "%3Cp%3E%3Cspan%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%280%2C%200%2C%200%29%3Bfont-size%3A%20medium%3B%22%3E%D8%A8%D9%90%D8%B3%D9%92%D9%85%D9%90%20%D8%A7%D9%84%D9%84%D9%8E%D9%91%D9%87%D9%90%20%D8%A7%D9%84%D8%B1%D9%8E%D9%91%D8%AD%D9%92%D9%85%D9%8E%D9%86%D9%90%20%D8%A7%D9%84%D8%B1%D9%8E%D9%91%D8%AD%D9%90%D9%8A%D9%92%D9%85%3C%2Fspan%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%20color%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3E%3Cbr%3E%26quot%3BPerumpamaan%20orang-orang%20yang%20menginfakkan%20hartanya%20dijalan%20Allah%20adalah%20seperti%20%28orang-orang%20yang%20menabur%29%20sebutir%20biji%20%28benih%29%20yang%20menumbuhkan%20tujuh%20tangkai%2C%20pada%20setiap%20tangkai%2C%20pada%20setiap%20tangkai%20ada%20seratus%20biji.%20Allah%20melipatgandakan%20%28pahala%29%20bagi%20siapa%20yang%20Dia%20kehendaki.%20Allah%20Maha%20luas%20lagi%20Maha%20mengetahui.%26quot%3B%20%28QS.%20Al%20baqarah%3A%20261%29%3C%2Fp%3E%0A%3Cbr%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%20color%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EAssalamualaikum%20wr%20wb%2C%20Dalam%20rangka%20menunjang%20kegiatan%20Musholla%2C%20dan%20hasil%20evaluasi%20kebutuhan%20sarana%20prasana%20Musholla%2C%20serta%20pemeliharaannya.%20Kami%20bermaksud%20mengadakan%20Program%20Waqaf%20Pengadaan%20Sarana%20Prasarana.%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%20color%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EBerikut%20terlampir%20~%26curren%3B%26bull%3B%26deg%3B%F0%9F%AA%91%F0%9F%92%BB%F0%9F%93%8C%26deg%3B%26bull%3B%26curren%3B~%20Dana%20Waqaf%20dapat%20ditranfer%20ke%20%F0%9F%94%81%20Mandiri%20102.000.5964.165%20A.n%20Putut%20Mahardika%20%F0%9F%97%A3%EF%B8%8F%20Konfirmasi%20ke%20om%20Putut%20%280811-8458-787%29%3C%2Fp%3E%0A%3Cbr%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%22%3E%3Cspan%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EJazakumullah%20Khairan%20Katsiran.%3C%2Fspan%3E%3C%2Fp%3E%0A%3Cp%20style%3D%22text-align%3A%20left%3B%22%3E%3Cspan%20style%3D%22text-align%3A%20start%3Bcolor%3A%20rgb%2831%2C%2041%2C%2055%29%3B%20font-size%3A%20medium%3B%22%3EWassalamualaikum%20Wr%20Wb.%3C%2Fspan%3E%3C%2Fp%3E%0A%3Cp%3E%3Cbr%3E%3C%2Fp%3E",
-      "hashtag": "#SholehBerjamaah #DKMDarussalam",
-      "rekening": {
-        "bank": "Mandiri",
-        "rekening": "102.000.5964.165",
-        "atas_nama": "Putut Mahardika",
-        "kode_unik": "2"
-      },
-      "konfirmasi_donasi": {
-        "nama": "Putut Mahardika",
-        "no_hp": "0811-8458-787"
       }
     }
   ]
