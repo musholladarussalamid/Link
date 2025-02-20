@@ -319,6 +319,7 @@ const Ramadan = () => {
               </div>
               <div className="">
                 *Konfirmasi donasi anda hubungi{" "}
+                {linkContent?.konfirmasi_donasi.nama}{" "}
                 {linkContent?.konfirmasi_donasi.no_hp}{" "}
                 {/* atau isi form konfirmasi{" "} */}
                 {/* <Link
@@ -328,15 +329,9 @@ const Ramadan = () => {
             di sini
           </Link>{" "} */}
               </div>
-              <div>
-                *List Donasi yang sudah terkonfirmasi{" "}
-                <a href="https://s.id/23nZM" className="text-blue-600">
-                  di sini
-                </a>
-              </div>
             </div>
 
-            <div className="mb-4" ></div>
+            <div className="mb-4"></div>
 
             <div className=" text-sm text-gray-500 mb-1">Donasi Terkumpul</div>
 
@@ -431,6 +426,7 @@ const Ramadan = () => {
               </div>
               <div className="">
                 *Konfirmasi donasi anda hubungi{" "}
+                {linkContent?.konfirmasi_donasi.nama}{" "}
                 {linkContent?.konfirmasi_donasi.no_hp}{" "}
                 {/* atau isi form konfirmasi{" "} */}
                 {/* <Link
@@ -439,12 +435,6 @@ const Ramadan = () => {
           >
             di sini
           </Link>{" "} */}
-              </div>
-              <div>
-                *List Donasi yang sudah terkonfirmasi{" "}
-                <a href="https://s.id/23nZM" className="text-blue-600">
-                  di sini
-                </a>
               </div>
             </div>
           </div>
