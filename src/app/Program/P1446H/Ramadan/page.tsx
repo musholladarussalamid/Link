@@ -319,8 +319,8 @@ const Ramadan = () => {
               </div>
               <div className="">
                 *Konfirmasi donasi anda hubungi{" "}
-                {linkContent?.konfirmasi_donasi.nama}{" "}
-                {linkContent?.konfirmasi_donasi.no_hp}{" "}
+                <b>{linkContent?.konfirmasi_donasi.nama}</b>{" "}
+                <b>{linkContent?.konfirmasi_donasi.no_hp}</b>{" "}
                 {/* atau isi form konfirmasi{" "} */}
                 {/* <Link
             className=" text-blue-500 font-semibold"
@@ -426,8 +426,8 @@ const Ramadan = () => {
               </div>
               <div className="">
                 *Konfirmasi donasi anda hubungi{" "}
-                {linkContent?.konfirmasi_donasi.nama}{" "}
-                {linkContent?.konfirmasi_donasi.no_hp}{" "}
+                <b>{linkContent?.konfirmasi_donasi.nama}</b>{" "}
+                <b>{linkContent?.konfirmasi_donasi.no_hp}</b>{" "}
                 {/* atau isi form konfirmasi{" "} */}
                 {/* <Link
             className=" text-blue-500 font-semibold"
