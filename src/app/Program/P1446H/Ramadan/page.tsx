@@ -200,9 +200,9 @@ const Ramadan = () => {
       year: "numeric",
     };
     const formattedDate = today.toLocaleDateString("id-ID", options);
-    const text = `${base_url + linkContent.image}\n[${
-      linkContent.caption
-    }] \n\n 
+    const text = `https://musholladarussalamid.github.io/${
+      base_url + linkContent.image
+    }\n[${linkContent.caption}] \n\n 
 بِسْــــــــــــــــــــــمِ اللّهِ الرَّحْمَنِ الرَّحِيْم
 
 "Rasulullah shallallahu 'alaihi wa sallam adalah orang yang paling dermawan. Dan beliau lebih dermawan lagi di bulan Ramadan saat beliau bertemu Jibril. Jibril menemuinya setiap malam untuk mengajarkan Al-Qur'an. Dan kedermawanan Rasulullah melebihi angin yang berhembus."
