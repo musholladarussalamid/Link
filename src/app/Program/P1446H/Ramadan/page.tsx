@@ -190,6 +190,67 @@ const Ramadan = () => {
     return rupiah;
   };
 
+  const shareToWhatsApp = () => {
+    if (!linkContent) return;
+    // Ambil tanggal hari ini
+    const today = new Date();
+    const options = { day: "numeric", month: "long", year: "numeric" };
+    const formattedDate = today.toLocaleDateString("id-ID", options);
+    const text = `${base_url + linkContent.image}\n[${linkContent.caption}] \n\n 
+بِسْــــــــــــــــــــــمِ اللّهِ الرَّحْمَنِ الرَّحِيْم
+
+"Rasulullah shallallahu 'alaihi wa sallam adalah orang yang paling dermawan. Dan beliau lebih dermawan lagi di bulan Ramadan saat beliau bertemu Jibril. Jibril menemuinya setiap malam untuk mengajarkan Al-Qur'an. Dan kedermawanan Rasulullah melebihi angin yang berhembus."
+[HR. Bukhari no.6]
+
+السلام عليكم ورحمة الله وبركاته
+
+🔹 Update Donasi Kegiatan Ramadhan per ${formattedDate}
+
+Alhamdulillah, telah terkumpul sebesar *Rp ${formatRupiah(
+      totalDonasi
+    )}* dari total kebutuhan *Rp ${formatRupiah(targetDonasi)}*
+
+💳 Donasi shodaqoh & infaq Ramadhan dapat disalurkan melalui:
+🏦 ${linkContent?.rekening.bank} *${linkContent?.rekening.rekening}* a.n. *${
+      linkContent?.rekening.atas_nama
+    }*
+📲 Konfirmasi: *Bunda Ken 📱: +62 812-8415-5374*
+
+🔗 Link update donasi:
+🕌 https://s.id/JPlKN
+
+🍽️ Donasi Lainnya:
+- Hari 1-30
+🍱 Makan Malam (1 security, 1 marbot)
+- Hari 1-30
+🥘 Makan Sahur (3 security, 1 marbot)
+- Hari 3-8
+🌙 Iftor Pesantren Kilat (kurang lebih 120 orang)
+
+📌 CP Donasi Sahur & Ifthar
+Ibu Desy 📱: +62 821-2299-0904
+
+📌 CP Sanlat
+Ibu Eka 📱: +62 817-9891-028
+
+Jazaakumullahu Khayran kepada warga yang telah berpartisipasi. Semoga Allah memberikan keberkahan atas shadaqoh yang dikeluarkan.
+
+بارك الله فيكم 🤲🏻
+
+#wonderfullqur'an
+#ramadan1446h/2025M
+#musholladarussalam
+
+والسلام عليكم ورحمة الله وبركاته
+•┈┈┈••✵✨ 🕌 ✨✵••┈┈┈•`;
+    const url = encodeURIComponent(`${window.location.href}`);
+    const imageUrl = base_url + linkContent.image;
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(
+      text
+    )}&image=${encodeURIComponent(imageUrl)}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   const styleProgress = clsx({
     ["absolute top-0 bottom-0 left-0 rounded-lg bg-blue-200 w-[0%]"]: true,
     ["absolute top-0 bottom-0 left-0 rounded-lg bg-blue-200 w-[5%]"]:
@@ -268,6 +329,12 @@ const Ramadan = () => {
             <div className=" text-2xl text-lime-900 font-semibold mb-2">
               {linkContent?.caption}
             </div>
+            <button
+              onClick={shareToWhatsApp}
+              className="w-full inline-block px-12 py-2 my-2 text-sm text-center font-medium text-white bg-green-600 rounded hover:bg-green-700"
+            >
+              Share to WhatsApp
+            </button>
 
             {/* <button
               className="w-full inline-block px-12 py-2 my-2 mb-4 text-sm text-center font-medium text-white bg-green-600 border border-green-600 rounded active:text-green-500 hover:bg-transparent hover:text-green-600 focus:outline-none focus:ring"
