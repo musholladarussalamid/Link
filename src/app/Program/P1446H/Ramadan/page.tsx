@@ -210,13 +210,13 @@ const Ramadan = () => {
 
 السلام عليكم ورحمة الله وبركاته
 
-🔹 Update Donasi Kegiatan Ramadhan per ${formattedDate}
+🔹 Update Donasi Kegiatan Ramadan per ${formattedDate}
 
 Alhamdulillah, telah terkumpul sebesar *Rp ${formatRupiah(
       totalDonasi
     )}* dari total kebutuhan *Rp ${formatRupiah(targetDonasi)}*
 
-💳 Donasi shodaqoh & infaq Ramadhan dapat disalurkan melalui:
+💳 Donasi shodaqoh & infaq Ramadan dapat disalurkan melalui:
 🏦 ${linkContent?.rekening.bank} *${linkContent?.rekening.rekening}* a.n. *${
       linkContent?.rekening.atas_nama
     }*
