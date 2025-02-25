@@ -226,11 +226,15 @@ Alhamdulillah, telah terkumpul sebesar *Rp ${formatRupiah(
 🕌 https://s.id/JPlKN
 
 🍽️ Donasi Lainnya:
-- Hari 1-30
-🍱 Makan Malam (1 security, 1 marbot)
-- Hari 1-30
+
+Tanggal 8  maret Sanlat 
+🧃 120 botol juice buah
+
+🍱 Ifthar (1 security, 1 marbot)
+- Hari 1, 2, 3, 7, 14, 17, 21, 22, ✅
 🥘 Makan Sahur (3 security, 1 marbot)
-- Hari 3-8
+- Hari 1 - 12 ✅
+- Hari 17 , 21, 22✅
 🌙 Iftor Pesantren Kilat (kurang lebih 120 orang)
 
 📌 CP Donasi Sahur & Ifthar
