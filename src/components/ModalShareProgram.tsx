@@ -35,9 +35,11 @@ type ModalShareProgramProps = {
 const ModalShareProgram = (props: ModalShareProgramProps) => {
   const { linkContent, handleLinkContent } = props;
   const env = process.env.NODE_ENV === "production";
-  const urlShare = env ? "https://musholladarussalamid.github.io/Link" + linkContent?.url : linkContent?.url; 
+  const urlShare = env
+    ? "https://musholladarussalamid.github.io/Link" + linkContent?.url
+    : linkContent?.url;
 
-  const unsecuredCopyToClipboard = (text:string) => {
+  const unsecuredCopyToClipboard = (text: string) => {
     const textArea = document.createElement("textarea");
     textArea.value = text;
     document.body.appendChild(textArea);
