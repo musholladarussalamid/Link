@@ -90,13 +90,12 @@ const MediaSosial = () => {
 
   const getPlatformIcon = (platform: string) => {
     const platformLower = platform.toLowerCase();
-    const iconClass = "text-6xl";
 
     switch (platformLower) {
       case "instagram":
         return (
           <svg
-            className="w-16 h-16 text-white"
+            className="w-8 h-8 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -106,7 +105,7 @@ const MediaSosial = () => {
       case "youtube":
         return (
           <svg
-            className="w-16 h-16 text-white"
+            className="w-8 h-8 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -116,7 +115,7 @@ const MediaSosial = () => {
       case "facebook":
         return (
           <svg
-            className="w-16 h-16 text-white"
+            className="w-8 h-8 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -126,7 +125,7 @@ const MediaSosial = () => {
       case "tiktok":
         return (
           <svg
-            className="w-16 h-16 text-white"
+            className="w-8 h-8 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -137,7 +136,7 @@ const MediaSosial = () => {
       case "x":
         return (
           <svg
-            className="w-16 h-16 text-white"
+            className="w-8 h-8 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -147,7 +146,7 @@ const MediaSosial = () => {
       default:
         return (
           <svg
-            className="w-16 h-16 text-white"
+            className="w-8 h-8 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -221,59 +220,48 @@ const MediaSosial = () => {
           )}
 
           {!loading && !error && (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-8">
+            <div className="grid grid-cols-1 gap-3 pb-8 max-w-2xl mx-auto">
               {dataMedsos.map((medsos) => (
                 <div
                   key={medsos.ID_Medsos}
-                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+                  className="bg-white/10 backdrop-blur-sm rounded-full overflow-hidden hover:bg-white/20 transition-all duration-300 ring-1 ring-white"
                 >
-                  <div
-                    className={`bg-gradient-to-r ${getPlatformColor(
-                      medsos.Nama_Platform
-                    )} p-6 flex justify-center items-center`}
-                  >
-                    {getPlatformIcon(medsos.Nama_Platform)}
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-800 mb-2">
-                      {medsos.Nama_Platform}
-                    </h3>
-                    <p className="text-gray-600 mb-4 font-mono">
-                      {medsos.Username}
-                    </p>
-                    {medsos.Email_Terkait && (
-                      <p className="text-sm text-gray-500 mb-2">
-                        <span className="font-semibold">Email:</span>{" "}
-                        {medsos.Email_Terkait}
+                  <div className="flex items-center px-4 py-3">
+                    <div className="flex-shrink-0 mr-4">
+                      <div className={`bg-gradient-to-r ${getPlatformColor(medsos.Nama_Platform)} rounded-full p-2`}>
+                        <div className="w-8 h-8 flex items-center justify-center">
+                          {getPlatformIcon(medsos.Nama_Platform)}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-base font-bold text-white truncate">
+                        {medsos.Nama_Platform}
+                      </h3>
+                      <p className="text-sm text-white/80 truncate">
+                        {medsos.Username}
                       </p>
-                    )}
-                    {medsos.Tujuan_Akun && (
-                      <p className="text-sm text-gray-500 mb-2">
-                        <span className="font-semibold">Tujuan:</span>{" "}
-                        {medsos.Tujuan_Akun}
-                      </p>
-                    )}
-                    {medsos.Penanggung_Jawab && (
-                      <p className="text-sm text-gray-500 mb-2">
-                        <span className="font-semibold">PJ:</span>{" "}
-                        {medsos.Penanggung_Jawab}
-                      </p>
-                    )}
-                    {medsos.Tanggal_Dibuat && (
-                      <p className="text-sm text-gray-500 mb-4">
-                        <span className="font-semibold">Dibuat:</span>{" "}
-                        {medsos.Tanggal_Dibuat}
-                      </p>
-                    )}
+                    </div>
                     <a
                       href={medsos.URL_Profil}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`block w-full bg-gradient-to-r ${getPlatformColor(
-                        medsos.Nama_Platform
-                      )} text-white text-center py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200`}
+                      className="flex-shrink-0 ml-4 bg-white/20 hover:bg-white/30 rounded-full p-2 transition-colors"
                     >
-                      Kunjungi Profil
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        className="w-5 h-5 text-white"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                        />
+                      </svg>
                     </a>
                   </div>
                 </div>
