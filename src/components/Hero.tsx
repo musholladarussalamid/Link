@@ -8,15 +8,15 @@ const Hero = () => {
 
   return (
     <div className="max-container">
-      <div className="flex p-2 justify-center ">
-        <div className="box-content">
+      <div className="flex p-4 justify-center">
+        <div className="w-[300px] h-[300px] rounded-full overflow-hidden ring-4 ring-gray-200 shadow-md">
           <Image
-            priority 
-            width={340}
+            priority
+            width={300}
             height={300}
-            className=" h-[300px]"
-            src={link + "/logo_musholladarussalam_vertical_white.png"}
-            alt="logo"
+            className="w-full h-full object-cover"
+            src={link + "/logo_masjid_darussalam.jpeg"}
+            alt="Logo Masjid Darussalam"
           />
         </div>
       </div>

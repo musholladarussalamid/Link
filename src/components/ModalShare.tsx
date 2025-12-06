@@ -9,7 +9,7 @@ type link = {
   img: string;
 };
 
-const dataShareLink: link[] = [
+const dataLink: link[] = [
   {
     label: "WhatsApp",
     url: "wa",
@@ -94,7 +94,7 @@ const ModalShare = (props: ModalShareProps) => {
         </button>
       </div>
       <div className="p-4">
-        {dataShareLink.map((item: link, index: number) => {
+        {dataLink.map((item: link, index: number) => {
           let shareLink: string = "";
           if (item.label == "WhatsApp") {
             shareLink =
@@ -109,7 +109,7 @@ const ModalShare = (props: ModalShareProps) => {
           }
           if (item.label == "Email") {
             shareLink =
-              "mailto:?subject=Info DKM Musholla Darussalam! &body= " +
+              "mailto:?subject=Info DKM Masjid Pesona Darussalam! &body= " +
               linkContent?.lable +
               " - " +
               linkContent?.url;

@@ -19,6 +19,7 @@ export default function Home() {
 
   const handleLinkContent = (link: dataLink) => {
     setLinkContent(link)
+    
   }
 
   useEffect(() => {

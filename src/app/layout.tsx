@@ -8,8 +8,8 @@ import PrelineScript from "@/components/PrelineScript";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Musholla Darussalam - Link",
-  description: "Landing page to share information about DKM Musholla Darussalam",
+  title: "Masjid Pesona Darussalam - Link",
+  description: "Landing page to share information about DKM Masjid Pesona Darussalam",
 };
 
 export default function RootLayout({

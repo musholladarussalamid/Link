@@ -37,7 +37,7 @@ const ListBtnPengurus = (props: listBtnPengurusProps) => {
     <div className="flexCenter pb-16">
       <div className="padding-container max-container flex w-full flex-col justify-center gap-1">
         <div className="flex-1 text-white font-bold flex mb-2 justify-center items-center align-middle text-xl text-center">
-          @musholladarussalam.id
+          @masjidpesonadarussalam
         </div>
         <div className="flex-1 text-white font-bold flex mb-2 justify-center items-center align-middle text-xl text-center">
           Link Pengurus DKM :

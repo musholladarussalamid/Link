@@ -8,7 +8,7 @@ const SekilasInfo = () => {
         <div className="animate-marquee whitespace-nowrap w-full">
           <span className="mx-2">
             {" | "}
-            Selamat Datang Di Website Resmi Musholla Darussalam. Memberdayakan
+            Selamat Datang Di Website Resmi Masjid Pesona Darussalam. Memberdayakan
             Umat Dan Menyuarakan Moderasi Islam.
           </span>
         </div>
