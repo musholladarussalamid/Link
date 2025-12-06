@@ -1,4 +1,4 @@
-import { dataLink } from "@/app/types/dataLink";
+import type { dataLink } from "@/app/types/dataLink";
 import Image from "next/image";
 import Link from "next/link";
 import React, { MouseEventHandler } from "react";

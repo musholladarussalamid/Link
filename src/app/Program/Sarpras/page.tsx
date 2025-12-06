@@ -31,10 +31,10 @@ const Sarpras = () => {
           const detailProgramSarpras = json.dataLinkProgram[1];
           console.log("detailProgramSarpras => ", detailProgramSarpras);
           setLinkContent(detailProgramSarpras);
-          setShimmerLoad(!shimmerLoad);
+          setShimmerLoad((s) => !s);
         }
       });
-  }, []);
+  }, [env]);
 
   useEffect(() => {
     if (linkContent?.description && linkContent?.description != undefined) {
@@ -126,9 +126,7 @@ const Sarpras = () => {
                   __html: decodeURIComponent(descriptionContent),
                 }}
               />
-              <div className="mt-2 py-2">
-                {linkContent?.hashtag}
-              </div>
+              <div className="mt-2 py-2">{linkContent?.hashtag}</div>
             </div>
             <button
               className="w-full inline-block px-12 py-3 my-2 text-sm text-center font-medium text-white bg-green-600 border border-green-600 rounded active:text-green-500 hover:bg-transparent hover:text-green-600 focus:outline-none focus:ring"

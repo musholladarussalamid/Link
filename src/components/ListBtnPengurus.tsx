@@ -28,7 +28,7 @@ const ListBtnPengurus = (props: listBtnPengurusProps) => {
       .then((json) => {
         if (json.dataLinkPengurus) {
           setDataLinkBtn(json.dataLinkPengurus);
-          setShimmerLoad(!shimmerLoad);
+          setShimmerLoad((s) => !s);
         }
       });
   }, []);

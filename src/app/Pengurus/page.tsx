@@ -3,7 +3,7 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ListBtnPengurus from "@/components/ListBtnPengurus";
-import ModalShare from "@/components/ModalShare";
+import ModalShareProgram from "@/components/ModalShareProgram";
 import SekilasInfo from "@/components/SekilasInfo";
 import React, { useEffect, useState } from "react";
 import { dataLink } from "../types/dataLink";
@@ -36,7 +36,7 @@ const Pengurus = () => {
           linkContent={linkContent}
           handleLinkContent={handleLinkContent}
         />
-        <ModalShare
+        <ModalShareProgram
           linkContent={linkContent}
           handleLinkContent={handleLinkContent}
         />

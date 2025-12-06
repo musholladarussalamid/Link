@@ -28,10 +28,9 @@ const ListBtnProgram = (props: listBtnProgramProps) => {
       .then((json) => {
         if (json.dataLinkProgram) {
           setDataLinkBtn(json.dataLinkProgram);
-          setShimmerLoad(!shimmerLoad);
+          setShimmerLoad((s) => !s);
         }
       });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [env]);
 
   return (

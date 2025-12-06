@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ListBtnInformasi from "@/components/ListBtnInformasi";
 import ModalShare from "@/components/ModalShare";
+import ModalShareProgram from "@/components/ModalShareProgram";
 import SekilasInfo from "@/components/SekilasInfo";
 import axios from "axios";
 import Image from "next/image";
@@ -14,13 +15,11 @@ import { useEffect, useState } from "react";
 import { dataLink } from "./types/dataLink";
 
 export default function Home() {
-
-  const [linkContent, setLinkContent] = useState<dataLink|undefined>()
+  const [linkContent, setLinkContent] = useState<dataLink | undefined>();
 
   const handleLinkContent = (link: dataLink) => {
-    setLinkContent(link)
-    
-  }
+    setLinkContent(link);
+  };
 
   useEffect(() => {
     var head = document.getElementsByTagName("head").item(0);
@@ -43,7 +42,7 @@ export default function Home() {
           linkContent={linkContent}
           handleLinkContent={handleLinkContent}
         />
-        <ModalShare
+        <ModalShareProgram
           linkContent={linkContent}
           handleLinkContent={handleLinkContent}
         />

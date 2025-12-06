@@ -29,7 +29,7 @@ const ListBtnInformasi = (props: listBtnInformasiProps) => {
         // console.log(json);
         if (json.dataLink) {
           setDataLinkBtn(json.dataLink);
-          setShimmerLoad(!shimmerLoad);
+          setShimmerLoad((s) => !s);
         }
       });
   }, []);
