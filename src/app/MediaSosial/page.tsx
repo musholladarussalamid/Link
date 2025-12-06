@@ -228,7 +228,11 @@ const MediaSosial = () => {
                 >
                   <div className="flex items-center px-4 py-3">
                     <div className="flex-shrink-0 mr-4">
-                      <div className={`bg-gradient-to-r ${getPlatformColor(medsos.Nama_Platform)} rounded-full p-2`}>
+                      <div
+                        className={`bg-gradient-to-r ${getPlatformColor(
+                          medsos.Nama_Platform
+                        )} rounded-full p-2`}
+                      >
                         <div className="w-8 h-8 flex items-center justify-center">
                           {getPlatformIcon(medsos.Nama_Platform)}
                         </div>
