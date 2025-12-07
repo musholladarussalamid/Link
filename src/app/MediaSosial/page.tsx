@@ -220,11 +220,11 @@ const MediaSosial = () => {
           )}
 
           {!loading && !error && (
-            <div className="grid grid-cols-1 gap-3 pb-8 max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 gap-3 pb-8 max-w-[458px] mx-auto">
               {dataMedsos.map((medsos) => (
                 <div
                   key={medsos.ID_Medsos}
-                  className="bg-white/10 backdrop-blur-sm rounded-full overflow-hidden hover:bg-white/20 transition-all duration-300 ring-1 ring-white"
+                  className="bg-white/10 backdrop-blur-sm rounded-full overflow-hidden hover:bg-white/20 transition-all duration-300 ring-1 ring-white max-w-[450px]"
                 >
                   <div className="flex items-center px-4 py-3">
                     <div className="flex-shrink-0 mr-4">
